@@ -20,6 +20,10 @@ h3{
     font-family: 'Montserrat', sans-serif;
     color: #11999E;
 }
+p{
+    line-height: 2;
+}
+
 .top-container{
     background-color: #EAF6F6;
     padding-top: 100px;
@@ -37,17 +41,19 @@ h3{
 }
 .bottom-container{
     background-color: #66BFBF;
-    padding-top: 50px;
+    padding-top: 20px;
     padding-bottom: 50px;
 
 }
 .top-cloud{
     position: absolute;
     right: 300px;
+    margin-top: 40;
 }
 .bottom-cloud{
     position: absolute;
-    left: 300px;
+    left: 250px;
+    bottom: 300px;
 }
 /*.hr-between-skill {
     border:none;
@@ -107,26 +113,29 @@ h3{
     margin: auto;
   }
   .dotty-hr{
-    height: 0;
-    width: 10%;
-    border-style: dotted;
+    border: dotted #EAF6F6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
   }
 
   .footer-link{
-      padding: 10px;
+      padding: 10px 20px;
       text-decoration: none;
       color: #11999E;
   }
+  .footer-link:hover{
+      color: #EAF6F6;
+  }
   .contact-me{
-    padding-bottom: 100px;
+    padding: 40px auto 60px;
   }
   .copywrite{
     color: #EAF6F6;
+    font-size: 0.75rem;
+    padding: 10px 0px;
   }
   .mypic{
       width: 20%;
       margin: auto;
-  }
-  p{
-      line-height: 2;
   }
